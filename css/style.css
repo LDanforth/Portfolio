@@ -1,0 +1,15 @@
+.map {
+    background-image: url("../images/darkmap_blue.jpg");
+    padding: 20px 0;
+
+}
+
+body { padding-top: 50px; }
+
+.red {
+    background-color: rgb(255, 214, 88);
+}
+
+.featurette-image {
+    padding: 20px 0;
+}
