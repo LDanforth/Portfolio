@@ -1,3 +1,6 @@
+.fullwidthsec {
+    padding: 20px 0;
+}
 .map {
     background-image: url("../images/darkmap_blue.jpg");
     padding: 20px 0;
@@ -6,10 +9,35 @@
 
 body { padding-top: 50px; }
 
-.red {
+.yellow {
     background-color: rgb(255, 214, 88);
 }
 
 .featurette-image {
     padding: 20px 0;
+}
+
+
+.carousel-inner > .item > img.lindsey {
+    min-height: 500px;
+    bottom: 0;
+    left: 20%;
+    min-width: 0 !important;
+    
+
+}
+
+.carousel-caption.lindsey {
+    text-align: left;
+    left: 40%;
+}
+
+.jumbotron.lindsey {
+    background-image: url("../Images/Watercolor_bg_bw2.png")
+}
+
+@media (min-width:10px) and (max-width: 800px) { .carousel-caption.lindsey {
+    text-align: left;
+    left: 10%;
+    }
 }
